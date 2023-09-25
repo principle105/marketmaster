@@ -33,12 +33,14 @@
         lbData = null;
         const oldLbData = JSON.parse(JSON.stringify(lbData));
 
-        if (timePeriods[0].value === null) {
+        const timePeriodValue = timePeriods.find(
+            (period) => period.name === timePeriod
+        )?.value;
+
+        if (!timePeriodValue) {
             res = await fetch("/api/fetch-lb");
         } else {
-            res = await fetch(
-                `/api/fetch-lb?timeFrame=${timePeriods[0].value}`
-            );
+            res = await fetch(`/api/fetch-lb?timeFrame=${timePeriodValue}`);
         }
 
         if (res === null || !res.ok) {
