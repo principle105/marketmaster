@@ -64,7 +64,7 @@
                 Modified Duration Formula
             </p>
             <div
-                style="--katex-fontsize: 1.5rem"
+                style="--katex-fontsize: 2.25rem"
                 class="flex justify-center mb-8"
             >
                 <Katex math={equation1} />
@@ -75,7 +75,7 @@
                 Capital Asset Pricing Model
             </p>
             <div
-                style="--katex-fontsize: 2.25rem"
+                style="--katex-fontsize: 1.5rem"
                 class="flex justify-center mb-8"
             >
                 <Katex math={equation2} />
