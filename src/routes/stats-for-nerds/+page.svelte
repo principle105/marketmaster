@@ -1,8 +1,8 @@
 <script lang="ts">
     import Katex from "./Katex.svelte";
 
-    const equation1 = `\\text{Expected Return (ER)} = \\text{Risk-Free Rate} + \\beta \\times (\\text{Market Return} - \\text{Risk-Free Rate})`;
-    const equation2 = `\\text{Modified Duration} = \\frac{\\sum_{t=1}^{n} t \\times \\frac{CF_t}{(1 + YTM)^t}}{\\text{Current Bond Price}}`;
+    const equation1 = `\\text{Expected Return (ER)} = \\frac{\\sum_{t=1}^{n} t \\times \\frac{CF_t}{(1 + YTM)^t}}{\\text{Current Bond Price}}`;
+    const equation2 = `\\text{Modified Duration} = \\text{Risk-Free Rate} + \\beta \\times (\\text{Market Return} - \\text{Risk-Free Rate})`;
     const equation3 = `P_0 = \\frac{C_1}{(1 + \\text{ytm})^1} + \\frac{C_2}{(1 + \\text{ytm})^2} + \\ldots + \\frac{C_n + \\text{Par}}{(1 + \\text{ytm})^n}`;
 </script>
 
