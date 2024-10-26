@@ -57,7 +57,7 @@
                 The exact figures for the simulation are calculated with the
                 formulas below. We use random values to create margins of error
                 for the figures calculated so there is a controlled degree of
-                “luck” in the game that simulates a real stoc
+                “luck” in the game that simulates a real stock market.
             </p>
             <p class="opacity-70 mb-8 text-lg">
                 <u>Interest rate effect on bonds:</u>
